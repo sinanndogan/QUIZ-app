@@ -47,6 +47,7 @@ const score = computed(() => {
   let value = 0
   questions.value.map(q => {
     if (q.selected == q.answer) {
+    //question içersindeki selected  ile  answer eşleştiğinde bir artacak
       value++
     }
   })
